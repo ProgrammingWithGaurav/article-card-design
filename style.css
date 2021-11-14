@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #EDF2F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 65vw;
+    border-radius: 10px;
+    height: 20rem;
+    background: white;
+    display: flex;
+}
+
+.card img.drawer {
+    border-radius: 10px 0 0 10px;
+    width: 38%;
+}
+
+.card .content {
+    width: 62%;
+    padding: 15px 20px ;
+}
+
+.card .content h1 {
+    font-family: 'Manrope', sans-serif;
+    color: #3e4146;
+    font-weight: 700;
+    font-size: 25px;
+    width: 88%;
+}
+
+.card .content p {
+    color: #484C57;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    width: 84%;
+    line-height: 22px;
+}
+
+.card .content .card-footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .content .card-footer img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+.card .content .card-footer .profile{
+    display: flex;
+    justify-content: space-between;
+    width: 47%;
+    align-items: center;
+}
+
+.card .content .card-footer .profile h5{
+    margin-bottom: 0;
+}
+
+.card .content .card-footer .profile p{
+    margin-top: 1px;
+}
+
+.card .content .card-footer h5 {
+    font-family: 'Manrope', sans-serif;
+}
+
+.card .content .card-footer .share img{
+    background: #E9F0FA;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card .content .card-footer .share img{
+    width: 16px;
+    padding: 10px;
+    height: 16px;
+}
